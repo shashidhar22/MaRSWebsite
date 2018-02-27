@@ -3,8 +3,8 @@ name: Malaria Branch, CDC
 email: your-email@example.com
 description: The Malaria Resistance Surveillance or MaRS pipline, consists of a standardized laboratory and bioinformatics workflow for identifying variants in Plasmodium falciparum genomes conferring drug resistance. By streamlinging the data QC, alignment, and variant calling process, MaRS hopes to reduce time of analysis, as well allow for flexibilty of protocol used for the BGS analysis.
 
-parallax_image_one: /raw.githubusercontent.com/shashidhar22/shashidhar22.github.io/MaRSWebsite/assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: /raw.githubusercontent.com/shashidhar22/shashidhar22.github.io/MaRSWebsite/assets/images/startup3.jpg
+parallax_image_one: MaRSWebsite/assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: MaRSWebsite/assets/images/startup3.jpg
 
 project_one: MaRS Lab Protocol
 project_one_description: Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system
