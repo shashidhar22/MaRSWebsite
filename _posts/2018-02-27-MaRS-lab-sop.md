@@ -3,13 +3,14 @@ layout: post
 title:  "Targeted Amplicon Deep Sequencing"
 date:   2018-02-27 12:18:05 +0000
 image: assets/images/twoscreen.jpg
+excerpt_separator: <!--more-->
+
 ---
 
-1. Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular markers of resistance
-
+Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular markers of resistance:
 *Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system*
 
----------
+<!--more-->
 
 2. Table of Contents
  * [Introduction/General Overview](#chapter-1)
@@ -27,7 +28,7 @@ image: assets/images/twoscreen.jpg
  * [Library Denaturing and MiSeq Sample Loading](#chapter-13)
  * [Supporting Information](#chapter-14)
 
------------
+
 
 **IMPORTANT NOTICE**
 This document provides information for an application for Illumina technology that has been demonstrated internally and may be of interest to customers. This information is provided as‐is and is not an Illumina product and is not accompanied by any rights or warranties. Customers using or adapting this information should obtain any licenses required and materials from authorized vendors. Illumina products mentioned herein are for research use only unless marked otherwise. While customer feedback is welcomed, this application is not supported by Illumina Technical Support and Field Application Scientists.

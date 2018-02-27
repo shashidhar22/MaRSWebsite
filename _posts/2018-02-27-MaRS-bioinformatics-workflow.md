@@ -3,39 +3,26 @@ layout: post
 title:  "MaRS (Malaria Resistance Surveillance)"
 date:   2018-02-27 12:18:05 +0000
 image: assets/images/twoscreen.jpg
+excerpt_separator: <!--more-->
+
 ---
-
-1. MaRS (Malaria Resistance Surveillance)
-
 
 The emergence of resistance to all currently available antimalarial drugs in multiple regions of the world represents a current global public health challenge. In order to monitor and address this situation, faster and more effective surveillance tools are required to track and monitor the emergence and evolution of drug resistance in malaria. The Malaria Resistance Surveillance (MaRS) project aims to address this challenge by collating and mapping genetic polymorphisms associated with drug resistance in malaria around the world. The project achieves this by employing a targeted amplicon deep sequencing (TADS) approach [Lab Protocol](https://github.com/CDCgov/MaRS/tree/master/lab_sop) to detect single nucleotide polymorphisms on all major malaria drug resistance genes associated genes in samples sourced from travelers returning to the US from overseas, as well as samples actively collected in collaboration with partners from other countries.
 
+<!--more-->
 Data for this project can be found at the following link [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490). Collaborators are encouraged to submit their own data using this [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490)
 
-The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in *P.falciparum* genes associated with drug resistance.
+The Malaria Resistance Surveillance or MaRS analysis pipeline, is an attempt at standardizing the workflow for identifying both known and new polymorphisms in *P.falciparum* genes associated with drug resistance.
 
 
-2. Version Histroy
-  * Version 1.1.1 (1/9/2018)
-    * Fastq samples detected from directory
-    * Reference and dependencies for analysis on P.falciparum provided with the git bundle
-    * BBDuk used to trim reads
-    * BWA used for read alignment
-    * Variant calling using Samtools and GATK
-    * Summary tables for samples with separate tables for known and novel variants
-    * Summary heatmaps and frequency graphs generated
-    * The framework has been tested to work on Ubuntu 16.04 and RedHat Enterprise Linux Server Edition 6.8
-
-3. Setup
-
-4. Getting started
+## Getting started
 
   1. Download git repository:
 
 Clone the master branch of this repository.
-```{sh}
+{% highlight sh %}
 git clone https://github.com/CDCgov/MaRS.git
-```
+{% endhighlight %}
 
   2. Download dependencies:
 
