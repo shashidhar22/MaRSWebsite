@@ -9,12 +9,12 @@ parallax_image_two: assets/images/startup3.jpg
 project_one: MaRS Lab Protocol
 project_one_description: Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system
 project_one_url: https://github.com/CDCgov/MaRS/blob/master/lab_sop/MaRSsop.md
-project_one_icon: location_on
+project_one_icon: assets/images/laptop.png
 
 project_two: MaRS Bioinformatics Pipeline
 project_two_description: The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in P.falciparum genes associated with drug resistance.
 project_two_url: https://github.com/CDCgov/MaRS
-project_two_icon: photo_camera
+project_two_icon: assets/images/laptop.png
 
 portfolio_heading: Projects
 portfolio_type: cards
