@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "MaRS (Malaria Resistance Surveillance)"
+date:   2018-02-27 12:18:05 +0000
+image: /assets/images/twoscreen.jpg
+---
+
 # MaRS (Malaria Resistance Surveillance)
 
 
@@ -5,7 +12,7 @@ The emergence of resistance to all currently available antimalarial drugs in mul
 
 Data for this project can be found at the following link [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490). Collaborators are encouraged to submit their own data using this [NCBI BioProject](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA428490)
 
-The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in *P.falciparum* genes associated with drug resistance. 
+The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in *P.falciparum* genes associated with drug resistance.
 
 
 ## Version Histroy
@@ -42,7 +49,7 @@ Follow the directory structure listed below and use the run script included with
 sh run.sh <path to experiment folder> <path to output folder>
 ```
 
-For example if you have stored your fastq files in ```fq/``` folder and you want to store the results in the folder ```local/```. You can run the following command from the MaRS directory. 
+For example if you have stored your fastq files in ```fq/``` folder and you want to store the results in the folder ```local/```. You can run the following command from the MaRS directory.
 
 ```{sh}
 sh run.sh fq/ local/
