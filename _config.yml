@@ -16,13 +16,13 @@ project_two_description: The Malaria Resistance Surveillance or MaRS analysis pi
 project_two_url: https://github.com/CDCgov/MaRS
 project_two_icon: photo_camera
 
-project_three: None
+project_three: nil
 project_three_description: Describe your project!
 project_three_url: https://github.com/jameshamann/jekyll-material-theme
 project_three_icon: hotel
 
 
-project_four: None
+project_four: nil
 project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
