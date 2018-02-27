@@ -2,7 +2,7 @@
 layout: post
 title:  "MaRS (Malaria Resistance Surveillance)"
 date:   2018-02-27 12:18:05 +0000
-image: /assets/images/twoscreen.jpg
+image: assets/images/twoscreen.jpg
 ---
 
 1. MaRS (Malaria Resistance Surveillance)

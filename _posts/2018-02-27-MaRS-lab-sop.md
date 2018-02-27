@@ -2,7 +2,7 @@
 layout: post
 title:  "Targeted Amplicon Deep Sequencing"
 date:   2018-02-27 12:18:05 +0000
-image: /assets/images/twoscreen.jpg
+image: assets/images/twoscreen.jpg
 ---
 
 1. Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular markers of resistance
