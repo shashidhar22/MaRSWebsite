@@ -682,7 +682,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 ### Tagment Genomic DNA
   This step uses the Nextera transposome to tagment gDNA, which fragments and then tags the DNA with adaptor sequences in a single step.
 
-![alt text](https://github.com/shashidhar22/MaRSWebsite/blob/master/images/Nextera.png)
+![alt text](https://github.com/shashidhar22/MaRSWebsite/tree/master/images/Nextera.png)
 
 
 
@@ -756,7 +756,7 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 
 **Figure 2 *TrueSeq Index Plate Fixture***
 
-![alttext](https://github.com/shashidhar22/MaRSWebsite/blob/master/images/TruSeqIndex.png)             
+![alttext](https://github.com/shashidhar22/MaRSWebsite/tree/master/images/TruSeqIndex.png)             
 
          A Index 2 primers (white caps), B Index 1 primers (orange caps), C 96‐well plate.
 
@@ -827,7 +827,7 @@ This step uses AMPure XP beads to clean up the final library before quantificati
 3. 	Gently shake the AMPure XP beads for 30 seconds to make sure that the beads are evenly dispersed. Add an appropriate volume of beads to a trough depending on the number of samples being processed and desired fragment selection. Smaller amplicons in Nextera XT library preps typically yield smaller insert size ranges.
 To maximize recovery of smaller fragments from the bead cleanup step, use the following conditions:
 
-![alt text](https://github.com/shashidhar22/MaRSWebsite/blob/master/images/AMPure.png)
+![alt text](https://github.com/shashidhar22/MaRSWebsite/tree/master/images/AMPure.png)
 
 4.  Using a multichannel pipette, add 90 μl of AMPure XP beads to each well of the Amplicon PCR plate. Change tips between columns.
 5.  Gently pipette entire volume up and down 10 times if using a 96‐well PCR plate, or seal plate and shake at 1800 for 2 minutes if using a MIDI plate. Change tips after each column. The mixture should appear homogeneous.
@@ -871,7 +871,7 @@ It is important to consider library size when preparing samples for cluster gene
 
 **Guidelines for Optimal Cluster Density**
 
-![Cluster](https://github.com/shashidhar22/MaRSWebsite/blob/master/images/ClusterDensity.png)
+![Cluster](https://github.com/shashidhar22/MaRSWebsite/tree/master/images/ClusterDensity.png)
 
 **Average Library Size** |  **Conversion Factor** |	**DNA Concentration for Cluster Generation**
 -----------| ----------------| -----------------
