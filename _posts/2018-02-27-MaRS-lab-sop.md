@@ -13,7 +13,7 @@ Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular mark
 *Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system*
 
 
-2. Table of Contents
+Table of Contents
  * [Introduction/General Overview](#chapter-1)
  * [Materials and Equipment](#chapter-2)
  * [NGS Library Preparation Workflow](#chapter-3)
@@ -40,7 +40,7 @@ This protocol format was adapted from the 16S Metagenomics Sequencing Library Pr
 -----------
 
 <a id="chapter-1"></a>
-## Introduction and General Overview
+### Introduction and General Overview
 Human malaria is caused by four parasite species called *Plasmodium falciparum (Pf), P. vivax (Pv), P. ovale (Po)* and *P. malariae (Pm)*. Two of these, Pf and Pv, pose the greatest threat to global public health. About 3.2 billion people, half of the world’s population, are at risk for malaria. In 2015, 95 nations had ongoing malaria transmission and annually 198 million people suffer from malaria, causing an estimated 438,000 deaths. In the U.S., an estimated 1,500 - 2,000 cases of malaria are imported annually. One of the greatest public health challenges for malaria control and elimination is the threat of drug resistant Pf parasites.
 
 Our previously effective anti-malarial treatments, chloroquine (CQ) and sulfadoxine/pyrimethamine (SP), are ineffective in many regions. Even more alarming, resistance to our last effective class of anti-malarial drugs, called artemisinins, has now emerged and spread in Southeast Asia — threatening malaria control and prevention programs globally.
@@ -65,7 +65,7 @@ _**\*C350R** results in a reduction of chloroquine resistance._
 The method described in this SOP provides an integrated advanced molecular detection system for drug resistance surveillance of all currently known anti-malarial treatments. This technology is based on a next generation sequencing (NGS) protocol referred to as targeted amplicon deep sequencing (TADS).
 
 <a id="chapter-2"></a>
-## Materials and Equipment
+### Materials and Equipment
 Please ensure all the necessary user‐supplied consumables and equipment are available before proceeding to sample preparation.
 
 
@@ -146,60 +146,60 @@ Equipment | Supplier
 **MiSeq Desktop Sequencer** | Illumina Inc.
 
 <a id="chapter-3"></a>
-## Protocol Workflow
+### Protocol Workflow
 **NOTE: The hands-on times are based on using 96-well format plates for each step.**
 
-#### PET-PCR Sample Quality Check \[Sample QC]
+##### PET-PCR Sample Quality Check \[Sample QC]
 Real-time PCR hands-on time 30 min / 96 samples; Cycle time 1.2 hours  
 Reagents: Primers, 2X ABI TaqMan buffer, DNase PCR free water  
 
-#### PCR reaction to generate amplicons \[Amplification]
+##### PCR reaction to generate amplicons \[Amplification]
 PCR hands-on time 30 min / 96 samples; Cycle time 2.5 hours  
 Reagents: 10uM Primers, HF Phusion Taq, 5X GC Buffer, 10mM dNTPs, DNase PCR free water  
 
-#### Analysis of PCR amplicons \[Electrophoresis]
+##### Analysis of PCR amplicons \[Electrophoresis]
 PCR amplicon electrophoresis hands-on time 10 min / 8 samples; Gel running time 30 min  
 If < 20 samples, run all samples on the gel; If > 20 samples, pick 20 samples with varying CT values and run on the gel   
 Reagents: Agarose, DNA loading dye, 1kb DNA ladder, 1X TBE Buffer  
 
-#### PCR amplicons clean up \[Purification]
+##### PCR amplicons clean up \[Purification]
 Hands on time 35 min / 96 samples; Total time 90 min / 8 samples  
 Reagents: SequalPrep Normalization Binding Buffer, SequalPrep Normalization Wash, SequalPrep Normalization Elution Buffer  
 
-#### Tagment Genomic DNA
+##### Tagment Genomic DNA
 Hands on time 30 min / 96 samples; Total time 17 min / 8 samples  
 Reagents: ATM, TD, NT  
 
 *\[optional]* To assess tagmentation, run 1μL sample on Agilent Bioanalyzer 2X and/or TapeStation 2X using High Sensitivity DNA chip  
 
-#### Library Amplification
+##### Library Amplification
 Hands on time 35 min / 96 samples; Cycle time 38 min / 96 samples  
 Reagents: NPM, Index 1 primers, Index 2 primers  
 
-#### Library Clean-up \[Purification]
+##### Library Clean-up \[Purification]
 Hands on time 30 min / 96 samples; Total time 40+ min / 96 samples  
 Reagents: AMPure XP beads, fresh 80% EtOH  
 
-#### Library Pooling, Quantification, and Normalization
+##### Library Pooling, Quantification, and Normalization
 Hands on time 30+ min / 96 samples; Total time 40+ min / 96 samples  
 Reagents: Sample Buffer, D5000 Ladder, ScreenTape; Qubit dsDNA HS Buffer and Reagent, Standard #1 and #2  
 
-#### Library Denaturing and MiSeq Sample Loading
+##### Library Denaturing and MiSeq Sample Loading
 Hands on time 30 min / pooled samples; Total time 30 min / pooled samples  
 Reagents: Resuspension Buffer, HT1, 0.2N NaOH, PhiX Control Kit v3, 200mM Tris-HCl pH7.0  
 
-#### Analysis of NGS data \[Analysis]
+##### Analysis of NGS data \[Analysis]
 Hands on time 5 min / 96 samples; Total time 15-25 min / 96 samples  
 Method: MaRS analysis pipeline  
 __*Standardized SNPs reports generated*__  
 
 <a id="chapter-4"></a>
-## PET-PCR Sample QC
+### PET-PCR Sample QC
 This step uses a real time PCR assay to assess the quality and quantity of starting DNA material. The readout includes an estimation of *all* DNA in the sample, host and parasite.
 
 **NOTE:** This assay is used to identify which samples should be included and/or excluded for downstream procedures. Any sample with a CT value greater than 34, should be excluded. We recommend grouping all samples with a CT > 34 and performing separate amplicon PCRs and electrophoresis for these samples. If the electrophoresis yields positive results (e.g. positive and clear bands on gel) you may procced with downstream procedures. Samples with a CT > 34 have either very low and/or no parasite DNA.
 
-### Consumables
+#### Consumables
 
 **Table 4. PET-PCR Consumables**
 
@@ -211,7 +211,7 @@ Item | Quantity | Storage
 **Strip tubes 8X** | Up to 8 samples per strip | Room temperature
 **Strip Optical caps** | 8X	Up to 8 samples per strip | Room temperature
 
-### Preparation
+#### Preparation
 
 * All stock primers should be prepared at a 10μM concentration.
 * DNA samples should be stored at 4°C until testing or -20°C for long term storage.
@@ -220,7 +220,7 @@ Item | Quantity | Storage
 * All samples should be tested in duplicates or triplicates in some special cases (e.g. very low density situations).
 * Typically, the genus/*P. falciparum* multiplex assay should be run first on all samples. All genus-positive sample are subsequently tested for *P. ovale*, *P. malaria* and *P. vivax*, in order to determine the species.
 
-### Procedure
+#### Procedure
 
 **Initial Set up**
 
@@ -302,7 +302,7 @@ The table below shows the primers and PCR conditions for a multiplex reaction- G
 Lucchi, N.W., et al., Molecular diagnosis of malaria by photo-induced electron transfer fluorogenic primers: PET-PCR. *PLoS One*, 2013. 8(2): p. e56677.
 
 <a id="chapter-5"></a>
-## Gene PCR Enrichment
+### Gene PCR Enrichment
 ##### This step uses PCR to amplify template from a DNA sample using region of interest-specific primers.
 User‐defined forward and reverse primers are used to amplify templates from genomic DNA. A subsequent limited‐cycle amplification step is performed to add multiplexing indices and Illumina sequencing adapters. Libraries are normalized and pooled, and sequenced on the MiSeq system using v2 reagents.
 
@@ -333,7 +333,7 @@ User‐defined forward and reverse primers are used to amplify templates from ge
 3. Once tubes and/or plates are sealed, keep them in the Eppendorf PCR Cooler plates. **Pre-heat** the thermal cycler to 98°C prior to placing PCR plates and/or PCR tubes into the thermal cycler. Pre-heating to 98°C should take 0:30 of the 3:00 min.
 
 
-### Primers and PCR Conditions
+#### Primers and PCR Conditions
 The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2), Mitochondrial genome (6.3), Pfcytb (6.3a), Pfdhps (6.4), Pfdhfr (6.5), Pfmdr1 (6.6).**
 
 **Table 6.1 *Pfcrt***
@@ -572,12 +572,12 @@ The tables below show primers and PCR conditions for **Pfcrt (6.1), Pfk13 (6.2),
 
 
 <a id="chapter-6"></a>
-## Electrophoresis
+### Electrophoresis
 
 This step is necessary to ensure successful amplification of amplicons. It is recommended to run at least 25% of the total samples, all no-template and negative controls on the gel to confirm amplification was successful and no contamination occured. Please note PCR amplification can be affected by numerous factors, including but not limited to, DNA quality and quantity.
 
-### Consumables
-#### **Table7  Electrophoresis Consumables**
+#### Consumables
+##### **Table 7.  Electrophoresis Consumables**
 
 |Item                                                   |Quntity                |	Storage|
 |:-----------------------------------------------------:|:-----------------------:|:------------------:|                                             
@@ -586,10 +586,10 @@ This step is necessary to ensure successful amplification of amplicons. It is re
 **Nucleic Acid Gel Stain** |	5 μl per 100mL of buffer |	Room temperature
 **Orange Dye** |	2 μl per 8 μl PCR product |	Room temperature
 
-### Preparation
+#### Preparation
   - Create X solution of 10X TBE Buffer and deionized water before you start.
 
-### Procedure   
+#### Procedure   
 1.  Choose an Erlenmeyer flask that is 2-4 times the volume of the solution and place a stirring rod into the flask.
 2.  Weigh the agar to the desired concentration
       * For a 1% agarose gel, 1.0 gram of agarose + 100mL of buffer will fill a medium gel chamber
@@ -609,15 +609,15 @@ This step is necessary to ensure successful amplification of amplicons. It is re
 17. Once amplification is confirmed, proceed to SequalPrep Normalization **(page 15-16)**.
 
 <a id="chapter-7"></a>
-## SequalPrep Normalization
+### SequalPrep Normalization
 This step utilizes ChargeSwitch Technology to purify and normalize amplicon PCR product. PCR product is added to the plate and mixed with Binding Buffer, which then sits at room temperature for 1 hour. The DNA is then washed and eluted, resulting in a purified and normalized DNA product.
 
 This protocol format was adapted from the SequalPrep™ Normalization Plate (96) Kit [protocol](https://www.thermofisher.com/order/catalog/product/A1051001) from ThermoFisher Scientific
 
-### Consumables
+#### Consumables
 
 
-#### **Table 8.** PCR Purification 1 SequalPrep Consumables
+##### **Table 8.** PCR Purification 1 SequalPrep Consumables
 |                Item                                                 | Quantity                |Storage                          |
 |:------------------------------------------------------------------:|:------------------------:|:----------------------------------:|
 |**SequalPrep™Normalization Plate (96)**    	                      |1 plate   	         | 15° to 30°C (Room temperature)  |
@@ -626,7 +626,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 |**SequalPrep™Normalization Elution Buffer(10mM Tris-HCL, pH 8.5)**   |20 μl per sample          |15° to 30°C (Room temperature) |
 |**(Optional) Foil Tape** 	                                      |2 sheets                  |15° to 30°C (Room temperature) |
 
-### Preparation
+#### Preparation
 
  * You will need at least 250 ng amplicon per well to use with the SequalPrep™ Normalization Plate to achieve robust normalization. An average efficiency PCR (20ul reaction volume) produces in the range of 25-100ng/ul, allowing you to purify using 5-10ul using the SequalPrep system.  
 
@@ -638,9 +638,9 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
    **NOTE:** Proceed very cautiously during this procedure and take your time- do not introduce bubbles when pipetting.
 
 
-### Procedure
+#### Procedure
 
-#### **Binding Step**
+##### **Binding Step**
 
 1. 	Transfer the desired volume of PCR product (5–25 μl PCR reaction mix, at least 250 ng amplicon/well) from the PCR plate into the wells of the SequalPrep™ Normalization plate.
 2. 	Add an equivalent volume of SequalPrep™ Normalization Binding Buffer.
@@ -652,7 +652,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 5. 	Optional: If >25 ng DNA/well yield is desired, transfer the amplicon/Binding Buffer mixture from Step 4 to another, fresh well/plate to sequentially bind more DNA. Perform DNA binding at room temperature for 1 hour.
         **NOTE:** After binding is complete, you can remove the amplicon/Binding Buffer mixture from the well and store at –20ºC for up to 30 days to perform additional purifications at a later time.  
 
-#### **Washing Step**
+##### **Washing Step**
 
 6. 	Aspirate the liquid from wells. Be sure not to scrape the well sides during aspiration.
 7. 	Add 50 μl SequalPrep™ Normalization Wash Buffer to the wells. Mix by pipetting up and down twice to improve removal of contaminants.
@@ -660,7 +660,7 @@ This protocol format was adapted from the SequalPrep™ Normalization Plate (96)
 
 8. 	Completely aspirate the buffer from wells and discard. To ensure complete removal of wash buffer and maximize elution efficiency, you may need to invert and tap the plate on paper towels depending on the pipetting technique or instrument used. A small amount of residual Wash Buffer (1–3 μl) is typical and does not affect the subsequent elution or downstream applications.
 
-#### **Elution Step**
+##### **Elution Step**
 
 9. 	Add 20 μl SequalPrep™ Normalization Elution Buffer to each well of the plate.
        **NOTE:** Do not use water for elution. If you need to elute in any other buffer, be sure to use a buffer of pH 8.5–9.0. If the pH of the buffer is <8.5, the DNA will not elute efficiently.  
@@ -679,7 +679,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 **SAFE STOPPING POINT** If you do not immediately proceed to *Tagment Genomic DNA,* seal plate with Microseal “B” adhesive seal and store it at ‐15° to ‐25°C for up to a week.
 
 <a id="chapter-8"></a>
-## Tagment Genomic DNA
+### Tagment Genomic DNA
   This step uses the Nextera transposome to tagment gDNA, which fragments and then tags the DNA with adaptor sequences in a single step.
 
 ![alt text](https://github.com/CDCgov/MaRS/blob/master/images/Nextera.png)
@@ -687,9 +687,9 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 
 
 
-### Consumables
+#### Consumables
 
-#### **Table 9.Tagment Genomic DNA Consumables**
+##### **Table 9. Tagment Genomic DNA Consumables**
 
 |Item	|Quantity|	Storage|
 |:-----------------------------------------:|:--------------------------:|:----------------:|
@@ -701,7 +701,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 |**Microseal “A” film**                     |	1	                          |Room temperature|
 
 
-### Preparation
+#### Preparation
    - If not completed already, carefully pool 10uL of each gene’s corresponding sample into the same well of a half skirt plate before continuing
    - Be sure all samples are mixed thoroughly by pipetting gently 10 times.   
    - Thaw on ice, ATM and TD, invert thawed tubes 3-5 times and then centrifuge briefly.
@@ -709,7 +709,7 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
    - Set up thermal cycler and choose preheat lid option:   ***Thermocycler Program:*** ***55 °C for 5 min***, ***10 °C for ∞***
 
 
-### Procedure
+#### Procedure
 1. Add the following items in the order listed to each well of a new Hard-Shell skirted PCR plate. Pipette to mix.
 
 |      Item                           |Volume (μl)|
@@ -731,11 +731,11 @@ Expected DNA concentration is 1–2 ng/μl when using 20 μl elution volume.
 9.	Proceed to Library Amplification and Index PCR
 
 <a id="chapter-9"></a>
-## Library Amplification and Index PCR
+### Library Amplification and Index PCR
 This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR step adds Index 1 (i7) adapters and Index 2 (i5) adapters and sequences required for cluster formation. Use the full amount of recommended input DNA. To ensure libraries produce high-quality sequencing results, use the specified number of PCR cycles
 
-### Consumables
-#### **Table 10. Library Amplification and Index PCR Consumables**
+#### Consumables
+##### **Table 10. Library Amplification and Index PCR Consumables**
 
 |Item	                                                                                       |Quantity          |	Storage|
 |:----------------------------------------------------------------------------------------------|:-----------------|:-----------------|
@@ -746,7 +746,7 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 |**Microseal “A” film**                                                                        	|1	              |Room temperature|
 
 
-### Procedure
+#### Procedure
 1. 	Using the entire 25μl from the Tagment Genomic DNA step (see page 17-18), prepare the following: .
 2. 	Arrange the Index 1 and 2 primers in a rack (i.e. the TruSeq Index Plate Fixture) using the following arrangements as needed:
     - Arrange Index 2 primer tubes (white caps, clear solution) vertically, aligned with rows A through H.
@@ -787,10 +787,10 @@ This step amplifies the tagmented DNA using a limited-cycle PCR program. The PCR
 **SAFE STOPPING POINT** If you do not immediately proceed to Library Clean-Up on page 21, seal plate with an adhesive seal and store it at 2° to 8°C for up to a week.
 
 <a id="chapter-10"></a>
-## Library Clean‐Up
+### Library Clean‐Up
 This step uses AMPure XP beads to clean up the final library before quantification.
 
-### Consumables
+#### Consumables
 
 **Table 11. PCR Purification #2 Consumables**
 
@@ -804,7 +804,7 @@ This step uses AMPure XP beads to clean up the final library before quantificati
 |**96‐well MIDI plate**                 |1 plate|	                    |
 
 
-### Preparation
+#### Preparation
 
 • Determine whether or not a plate transfer is necessary.  If the PCR reaction volume multiplied by 2.8 exceeds the volume of the PCR plate, a transfer to a 300 μL round bottom plate or a 1.2 mL deep-well plate is required.
 
@@ -818,7 +818,7 @@ This step uses AMPure XP beads to clean up the final library before quantificati
 
 **NOTE:** 70% ethanol is hygroscopic. That is, when opened the ethanol will both evaporate and absorb water over time. Re-use eventually will be at a lower concentration. There is also miscibility involved with ethanol and water. For example, measuring out 70 mL of ethanol and topping off to 100 mL with water will generate ~65% ethanol. Measuring 80 mL ethanol and 20 mL water separately, then combining them will generate ~95 mL of 80% ethanol. Make sure to use molecular biology grade water (DNAse, RNase and Protease free).
 
-### Procedure
+#### Procedure
 1. 	Centrifuge the Library Amplification plate at 1,000 × g at 20°C for 1 minute to collect condensation, carefully remove seal.
 2. 	Using a multichannel pipette, transfer the entire 50 μl of PCR product from the Library Amplification plate to the MIDI plate. Change tips between samples.
 
@@ -864,12 +864,12 @@ To maximize recovery of smaller fragments from the bead cleanup step, use the fo
 If you do not plan to proceed to Library Clustering on page 24, seal the plate with Microseal “B” adhesive seal. Store the plate at ‐15° to ‐25°C for up to a week.
 
 <a id="chapter-11"></a>
-## Library Clustering
+### Library Clustering
 It is important to consider library size when preparing samples for cluster generation. Because the clustering process preferentially amplifies shorter libraries in a mixture of fragments, large libraries tend to cluster less efficiently than small libraries. The DNA concentration used for clustering can be adjusted to increase the cluster density of larger libraries.  Consider table 1 below:
 
-### Library Denaturing and MiSeq Sample Loading
+#### Library Denaturing and MiSeq Sample Loading
 
-##### Guidelines for Optimal Cluster Density
+###### Guidelines for Optimal Cluster Density
 
 ![Cluster](https://github.com/CDCgov/MaRS/blob/master/images/ClusterDensity.png)
 
@@ -882,23 +882,23 @@ It is important to consider library size when preparing samples for cluster gene
 *The values presented here are approximations, and exact values determined for each experiment may differ from these guidelines. The guidelines presented are applicable to Nextera DNA libraries and Nextera XT libraries that have not been normalized.
 
 <a id="chapter-12"></a>
-## Library Pooling, Quantification, and Normalization
-#### This step requires three parts:
+### Library Pooling, Quantification, and Normalization
+##### This step requires three parts:
    **Part I** Pool libraries
    **Part II** Quantification of fragment size and concentration to determine library concentration in nM
    **Part III** Diluting your final library in Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to a 4 nM solution
 
-### **Part I:** Pooling
+#### **Part I:** Pooling
 Aliquot 5 μl of diluted DNA from each library into a 1.5 microcentrifuge tube and mix aliquots for pooling libraries with unique indices. Depending on coverage needs, up to 384 libraries can be pooled for one MiSeq run.
 
-### **Part II:** Quantification
+#### **Part II:** Quantification
 Illumina recommends quantifying your libraries using a fluorometric quantification method that uses dsDNA binding dyes.
 
 * In order to determine the fragment size, this laboratory adopted the Agilent D5000 ScreenTape System Quick Guide protocol from Agilent Technologies.
 
 * In order to determine the library concentration, this laboratory adopted the Qubit® dsDNA HS Assay Kits protocol from Life Technologies.
 
-### DNA Concentration in nM
+#### DNA Concentration in nM
 After determining the fragment size and concentration of your pooled product, you will calculate the DNA concentration in nM, based on the size of DNA amplicons as determined by an Agilent Technologies 2100 Bioanalyzer trace and concentration by Qubit:
 
 ```
@@ -1018,7 +1018,7 @@ Item |  Quantity |	Storage
 
 7. Insert a sample tube into the sample chamber, close the lid, and press Read tube. When the reading is complete (~3 seconds), remove the sample tube and repeat until all samples have been read.
 
-### **Part III:** Normalization
+#### **Part III:** Normalization
 Dilute concentrated final library using Resuspension Buffer (RSB) or fresh 10 mM Tris pH 8.5 to **4 nM**.
 
 Example:
@@ -1032,7 +1032,7 @@ V<sub>1</sub>  = 1.78 μl of sample + 18.22 μl of RSB produces 20 μl of a 4nM 
 If you do not plan to proceed to Library Denaturing and MiSeq Sample Loading on page 27, leave your sample in 4°C.
 
 <a id="chapter-13"></a>
-## Library Denaturing and MiSeq Sample Loading
+### Library Denaturing and MiSeq Sample Loading
 In preparation for cluster generation and sequencing, pooled libraries are denatured with NaOH, diluted with hybridization buffer, and then heat denatured before MiSeq sequencing. Each run must include a minimum of 5% PhiX to serve as an internal control for these low-diversity libraries. Illumina recommends using MiSeq v2 reagent kits for improved run metrics.
 
 #### Consumables
@@ -1163,7 +1163,7 @@ The recommended PhiX control spike‐in of ≥ 5% for low diversity libraries is
 3. Invert the tube 1–2 times to mix and load all 600ul into the designated well in the cartridge.
 
 <a id="chapter-14"></a>
-## Supporting Information
+### Supporting Information
 
 The protocols described in this guide assume that you are familiar with the contents of this section and have obtained all of the requisite equipment and consumables.
 
