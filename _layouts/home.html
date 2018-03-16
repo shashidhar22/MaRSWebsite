@@ -5,6 +5,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
+        <!-- Adjust header content here-->
         <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
         <div class="row center">
           <h5 class="header col s12 light">{{ site.description }}</h5>
@@ -17,14 +18,18 @@
   </div>
 </div>
 
+<!-- Cookie section, currently not working.. -->
+
 <div id="cookies" style="display:{{site.cookies_banner}}">
   <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
   {% include cookies.html %}
 </div>
 
+<!-- Blog/SOP section -->
+
 <div class="container" style="padding:20px;">
   <div id="blog" class="section scrollspy">
-  <h3 style="text-align:center;">Blog</h3>
+  <h3 style="text-align:center;">Standard Operating Procedures (SOPs)</h3>
   {% include blog-feed.html %}
 </div>
 </div>
@@ -65,7 +70,7 @@
 
 <div class="container" style="padding:20px;">
   <div id="contact" class="section scrollspy">
-  <h3 style="text-align:center;">Contact</h3>
+  <h3 style="text-align:center;">Interested in Contributing? Contact Us!</h3>
   {% include contact.html %}
 </div>
 </div>
