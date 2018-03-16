@@ -13,7 +13,7 @@ Targeted Amplicon Deep Sequencing of *Plasmodium falciparum (Pf)* molecular mark
 *Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system*
 
 
-Table of Contents
+#### Table of Contents
  * [Introduction/General Overview](#chapter-1)
  * [Materials and Equipment](#chapter-2)
  * [NGS Library Preparation Workflow](#chapter-3)
