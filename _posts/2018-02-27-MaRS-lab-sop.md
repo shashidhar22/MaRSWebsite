@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Targeted Amplicon Deep Sequencing"
+title:  "MaRS Targeted Amplicon Deep Sequencing"
 date:   2018-02-27 12:18:05 +0000
-image: assets/images/twoscreen.jpg
+image: assets/images/tads.jpg
 excerpt_separator: <!--more-->
 
 ---
