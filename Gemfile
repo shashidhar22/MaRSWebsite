@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.5.0'
+ruby '2.3.6'
 
 gem 'materialize-sass'
 gem "jekyll", "~> 3.6.2"
