@@ -9,7 +9,7 @@ parallax_image_one: assets/images/quiet_sun.jpg # These are the images used for 
 parallax_image_two: assets/images/quiet_sun.jpg
 
 project_one: MaRS Lab Protocol
-project_one_description: Track any changes and/or updates to the laboratory preperation protocol for sequencing the full length genes (k13, mdr1, crt, dhps, dhfr) and mitochondrial genome on the MiSeq System. Click on the github link for more information!
+project_one_description: Track any changes and/or updates to the laboratory protocol for sequencing the full length genes (k13, mdr1, crt, dhps, dhfr) and mitochondrial genome on the MiSeq System. Click on the github link for more information!
 project_one_url: https://github.com/CDCgov/MaRS/blob/master/lab_sop/MaRSsop.md
 project_one_icon: assets/images/tads.jpg
 
@@ -29,7 +29,7 @@ project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
 
-portfolio_heading: Track Project on Github
+portfolio_heading: Standard Operating Procedures (SOPs)
 portfolio_type: cards
 
 # Skill icons from https://konpa.github.io/devicon/
