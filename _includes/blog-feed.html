@@ -4,7 +4,7 @@
   <div class="col s12 m6">
     <div class="card">
       <div class="card-image">
-        <img src="{{post.image}}">
+        <img src="{{post.image}}" style="max-height: 800px; max-width: 800px;">
         <span class="card-title"><a style="color:white">{{ post.title | escape }}</a></span>
         <a id="{{post.url}}" class="btn-floating halfway-fab waves-effect waves-light red" href="{{ post.url | relative_url }}"><i class="material-icons">more_horiz</i></a>
       </div>

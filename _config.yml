@@ -1,20 +1,20 @@
-title: MaRS Project
+title: Malaria Resistance Surveillance (MaRS)
 # Copyright name =
 name: Placeholder
 # ----------------
 email: shashidhar.r.shankar@gmail.com
-description: Malaria Resistance Surveillance
+description: The emergence of resistance to all currently available antimalarial drugs in multiple regions of the world represents a current global public health challenge. In order to monitor and address this situation, faster and more effective surveillance tools are required to track and monitor the emergence and evolution of drug resistance in malaria. The Malaria Resistance Surveillance (MaRS) project aims to address this challenge by standardizing the collection and mapping of genetic polymorphisms associated with drug resistance in malaria around the world.
 
-parallax_image_one: assets/images/startup2.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup2.jpg
+parallax_image_one: assets/images/quiet_sun.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/quiet_sun.jpg
 
 project_one: MaRS Lab Protocol
-project_one_description: Preparing full length genes Pf kelch 13 (k13), Pf chloroquine resistant transporter (crt), Pf multidrug resistant protein 1 (mdr1), Pf bifunctional dihydrofolate reductase-thymidylate synthase (dhfr), Pf dihydropteroate synthase (dhps) and mitochondrial genome amplicons for sequencing on the Illumina MiSeq system
+project_one_description: Track any changes and/or updates to the laboratory preperation protocol for sequencing the full length genes (k13, mdr1, crt, dhps, dhfr) and mitochondrial genome on the MiSeq System. Click on the github link for more information!
 project_one_url: https://github.com/CDCgov/MaRS/blob/master/lab_sop/MaRSsop.md
-project_one_icon: location_on
+project_one_icon: assets/images/tads.jpg
 
 project_two: MaRS Bioinformatics Pipeline
-project_two_description: The Malaria Resistance Surveillance or MaRS analysis pipline, is an attempt at standardizing the workflow for identifying both known and new polymorhisms in P.falciparum genes associated with drug resistance.
+project_two_description: Track any changes and/or updates to the MaRS analysis pipeline, which can be ran on any standard laptop. Click on the github link for more information!
 project_two_url: https://github.com/CDCgov/MaRS
 project_two_icon: photo_camera
 
